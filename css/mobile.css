@@ -73,6 +73,7 @@
 
            .grid_categ_ul>li,.grid_categ_ul_femme>li{
                font-size: .9rem;
+               text-align: center;
            }
 .grid_doudounes>.da,.grid_doudounesw>.daw{
     height: 70vh;

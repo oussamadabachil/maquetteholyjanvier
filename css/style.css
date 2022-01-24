@@ -50,7 +50,7 @@
 
 .grid_categ_ul>li,.grid_categ_ul_femme>li{
 
-
+text-align: center;
     cursor: pointer;
 }
 @keyframee{
