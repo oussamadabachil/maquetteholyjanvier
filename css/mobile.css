@@ -55,7 +55,7 @@
 
 .grid_categ_ul_femme{
     display: grid;
-    width: 90%;
+    width: 80%;
     margin: 1rem auto 0;
     text-align: center;
     grid-template-columns: repeat(2,1fr);
@@ -64,15 +64,15 @@
 
         .grid_categ_ul{
             display: grid;
-            width: 90%;
+            width: 80%;
             margin: 1rem auto 0;
             text-align: center;
             grid-template-columns: repeat(3,1fr);
             grid-gap: 1rem;
         }
 
-           .grid_categ_ul>li{
-               font-size: 1rem;
+           .grid_categ_ul>li,.grid_categ_ul_femme>li{
+               font-size: .9rem;
            }
 .grid_doudounes>.da,.grid_doudounesw>.daw{
     height: 70vh;
@@ -82,6 +82,11 @@
     width: 100%;
     
 }
-        
+.overflowy>.f,.overflowy_femme>.f{
+    position: relative;
+    margin-top: 1.2rem;
+     width: 2rem;
+     height: 80%;
+}
       
 }
