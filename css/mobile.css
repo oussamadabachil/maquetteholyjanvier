@@ -77,7 +77,6 @@
 .grid_doudounes>.da,.grid_doudounesw>.daw{
     height: 70vh;
     display: block;
-    background-image: url(../asset/visuel_grid_doudoune_left-2.jpg);
     background-size: cover;
     width: 100%;
     

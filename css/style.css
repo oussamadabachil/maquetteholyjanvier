@@ -692,6 +692,8 @@ button:hover{
 }
 
 .dbw>.pfw{
-    background-image: url(../asset/doudounes_photos_leo/pa6.jpg);
+    background-image: url(../asset/DSM_pic.jpg);
     background-size: cover;
+
+    background-position: center center;
 }
