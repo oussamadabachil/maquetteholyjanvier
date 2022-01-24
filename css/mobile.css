@@ -82,10 +82,10 @@
     width: 100%;
     
 }
-.overflowy>.f,.overflowy_femme>.f{
+.overflowy>.f,.overflowy_femme>.f,.overflowz>.f,.overflowx>.f,.overflowx_femme>.f{
     position: relative;
     margin-top: 1.2rem;
-     width: 2rem;
+     width: 20rem;
      height: 80%;
 }
       
