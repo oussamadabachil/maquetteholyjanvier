@@ -544,6 +544,7 @@ button:hover{
 }
 
 .bottom{
+    width: 100%;
     text-align: center;
     margin-top: 2rem ;
     margin-bottom: 2rem;
