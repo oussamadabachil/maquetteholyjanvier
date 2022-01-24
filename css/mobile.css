@@ -70,6 +70,10 @@
             grid-template-columns: repeat(3,1fr);
             grid-gap: 1rem;
         }
+
+           .grid_categ_ul>li{
+               font-size: 1rem;
+           }
 .grid_doudounes>.da,.grid_doudounesw>.daw{
     height: 70vh;
     display: block;
