@@ -1,0 +1,700 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.genre_change{
+    display: none;
+}
+
+
+.banniere{
+    transition: all .3s;
+    display: block;
+    width: 100%;
+    margin: 0 auto 1rem;
+    height: 45vh;
+    position: relative;
+    background-size: cover;
+    background-image: url(../asset/BANNIERES/1.jpg);
+}
+.banniere>ul>li{
+    cursor: pointer;
+    padding: .25rem;
+    font-family: Bebas Neue;
+    font-size: 1.7rem;
+    transition: all .4s;
+    color: white;
+    background-color: rgb(0, 0, 0)
+}
+
+.grid_categ_ul_femme{
+    display: grid;
+    width: 30rem;
+    margin: 1rem auto 0;
+    text-align: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
+}
+
+.grid_categ_ul{
+    display: grid;
+    width: 30rem;
+    margin: 1rem auto 0;
+    text-align: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3rem;
+}
+
+.grid_categ_ul>li,.grid_categ_ul_femme>li{
+
+
+    cursor: pointer;
+}
+@keyframee{
+
+}
+.banniere>p{
+    position: absolute;
+    top: 50%;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3rem;
+    font-family: Roboto;
+}
+
+.hide{
+    padding: .25rem;
+    font-family: Bebas Neue;
+    font-size: 1.7rem;
+    transition: all .4s;
+
+    background-color: rgba(255, 255, 255, 0)
+}
+
+.hide{
+    display: none;
+}
+.bg_active{
+    padding: .25rem;
+    cursor: pointer;
+    font-family: Bebas Neue;
+    font-size: 1.7rem;
+    transition: all .4s;
+
+    background-color: rgba(255, 255, 255, 1)
+}
+.bg_off{
+    cursor: pointer;
+    padding: .25rem;
+    font-family: Bebas Neue;
+    font-size: 1.7rem;
+    transition: all .4s;
+
+    background-color: rgba(0, 0, 0, 0)
+}
+::-webkit-scrollbar {
+    width: .1px;
+  }
+  
+
+.banniere>ul>li:hover{
+    transform: scale(1.2);
+    padding: .25rem;
+    font-family: Bebas Neue;
+    font-size: 1.7rem;
+transition: all .4s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.banniere>ul{
+    width: 15rem;
+    text-align: center;
+    position: absolute;
+    left:  6rem;
+    gap: 1rem;
+    bottom: -2.25rem;
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem; 
+}
+.mini_banniere_grid,.mini_banniere_grid-w{
+    display: none;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+    margin: 2rem auto;
+    width: 90%;
+    height: 30vh;
+
+}
+
+.mini_banniere_grid>div,.mini_banniere_grid-w>div{
+    background-color: rgb(191, 255, 218);
+    border-radius: .3rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+}
+
+h1{
+
+    font-family: Bebas Neue;
+    text-align: center
+;
+}
+ul>li>a{
+    
+    text-decoration: none;
+    color: black;
+}
+ul{
+    
+    text-align: center;
+    margin: 1rem auto;
+    display: grid;
+    width: 15%;
+    grid-template-columns: repeat(2,1fr);
+}
+ul>li{
+    font-family: Roboto;
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+.choix_femme{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    width: 50%;
+    margin: 2rem auto;
+    height: 30vh;
+}
+.choix_femme>div{
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+}
+
+.choix_homme{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    width: 50%;
+    margin: 2rem auto;
+    height: 30vh;
+}
+.choix_homme>div{
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+}
+.grid_new_prices{
+    max-width: 70%;
+    margin: 3rem auto;
+    height: 50vh;
+    grid-gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+
+}
+
+.grid_new_prices>div{
+
+    background-color: rgb(233, 206, 171);
+}
+.ab{
+    background-image: url(../asset/noeudpap.jpg);
+    background-size: cover;
+    position: relative;
+}
+.ac{
+    background-image: url(../asset/montrebg-2.jpg);
+    background-size: cover;
+    position: relative;
+}
+.ab>p{
+    position: absolute;
+    right: 1rem;
+    top: 2rem;
+    font-size: 1.3rem;
+    font-family: Roboto;
+}
+.ac>p,.ad>p,.ae>p,.af>p,.ag>p{
+    position: absolute;
+    right: 1rem;
+    top: 2rem;
+    font-size: 1.3rem;
+    font-family: Roboto;
+}
+button{
+    width: 10rem;
+    height: 2rem;
+    border-radius: .3rem;
+    position: absolute;
+    bottom: 4rem;
+    right: 1rem;
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgb(255, 255, 255);
+    transition: all .3s;
+
+}
+
+.pullw{
+    background-image: url(../asset/TOITREE/1.jpg);
+    background-size: cover;
+    position: relative;
+}
+.jeanw{
+    background-image: url(../asset/TOITREE/2.jpg);
+    background-size: cover;
+    position: relative;
+}
+.pantalonsw{
+    background-image: url(../asset/TOITREE/3.jpg);
+    background-size: cover;
+    position: relative;
+}
+.blazerw{
+    background-image: url(../asset/TOITREE/4.jpg);
+    background-size: cover;
+    position: relative;
+}
+.basketf{
+    background-image: url(../asset/BASKETSF.jpg);
+    background-size: cover;
+    position: relative;
+}
+.bootsf{
+    background-image: url(../asset/BOTTESF.jpg);
+    background-size: cover;
+    position: relative; 
+}
+
+.talonsf{
+    background-image: url(../asset/TALONSF.jpg);
+    background-size: cover;
+    position: relative;   
+}
+.doudounew{
+    background-image: url(../asset/TOITREE/5.jpg);
+    background-size: cover;
+    position: relative;
+}
+.doudounesmw{
+    background-image: url(../asset/TOITREE/6.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.ad{
+    background-image: url(../asset/ceinturebg.jpg);
+    background-size: cover;
+    position: relative;
+}
+.ae{
+    background-image: url(../asset/ceinturebg.jpg);
+    background-size: cover;
+    position: relative;
+}
+.af{
+    background-image: url(../asset/ceinturebg.jpg);
+    background-size: cover;
+    position: relative;
+}
+.ag{
+    background-image: url(../asset/ceinturebg.jpg);
+    background-size: cover;
+    position: relative;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: all .3s;
+
+}
+
+.first_grid_a>p,.first_grid_b>p,.first_grid_c>p{
+    position: absolute;
+    bottom: -2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.358);
+    font-size: 1.4rem;
+    font-family: Roboto;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+.first_grid_a,.first_grid_b,.first_grid_c{
+    position: relative;
+}
+
+.first_grid_a{
+    background-image: url(../asset/1.jpg);
+    background-size: cover;
+
+}
+.first_grid_b{
+    background-image: url(../asset/2.jpg);
+    background-size: cover;
+
+}
+.first_grid_c{
+    background-image: url(../asset/3.jpg);
+    background-size: cover;
+
+}
+.new_a{
+    position: relative;
+}
+
+.soldes_pices>p{
+    background-color: red;
+    font-family: Bebas Neue;
+    font-size: 1.6rem;
+    width: 7rem;
+    height: 7rem;
+    padding-top: 2.1rem;
+    text-align: center;
+    position: absolute;
+    border-bottom-right-radius: 7rem;
+}
+
+.overflowx,.overflowy,.overflowz,.overflowx_femme,.overflowy_femme{
+    overflow-x: scroll;
+    width: 90%;
+    height: 45vh;
+    margin: 0rem auto 2rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(10,1fr);
+}
+
+.overflowx>.f>p,.overflowy>.f>p,.overflowz>.f>p,.overflowx_femme>.f>p,.overflowy_femme>.f>p{
+    width: 100%;
+    position: absolute;
+    top: 109%;
+    left: 50%;
+    color:black ;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.1rem;
+    transform: translate(-50%,-50%);
+}
+.overflowx>.f,.overflowx_femme>.f{
+    position: relative;
+   margin-top: 1.2rem;
+    width: 25rem;
+    height: 80%;
+    background-color: red;
+}
+
+.overflowz>.f{
+    position: relative;
+   margin-top: 1.2rem;
+    width: 25rem;
+    height: 80%;
+    background-color: rgb(188, 223, 220);
+}
+.overflowy>.f,.overflowy_femme>.f{
+    position: relative;
+    margin-top: 1.2rem;
+     width: 25rem;
+     height: 80%;
+     background-color: rgb(255, 228, 228);
+}
+
+
+.vetbutt,.shoesbutt,.acessbutt{
+    display: inline-block;
+    font-weight: 900;
+  }
+  
+
+  .vetbutt::after,.acessbutt::after,.shoesbutt::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 300ms;
+  }
+  
+  .vetbutt:hover::after,.acessbutt:hover::after,.shoesbutt:hover::after{
+    width: 100%;
+  }
+  .grid_diane_photos,.grid_diane_photos_femme{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      width: 80%;
+      grid-gap: 1rem;
+      margin: 5rem auto;
+  }
+
+  .grid_diane_photos>img,.grid_diane_photos_femme>img{
+      
+    width: 100%;
+    cursor: pointer;
+  }
+
+
+  .basket{
+    background-image: url(../asset/basket.png);
+    background-size: cover;
+
+}
+.mocassin{
+    background-image: url(../asset/mocassin.png);
+    background-size: cover;
+
+}
+
+  .pull{
+      background-image: url(../asset/pull.jpg);
+      background-size: cover;
+
+  }
+ 
+
+.jean{
+    background-image: url(../asset/jean.jpg);
+    background-size: cover;
+
+}
+
+
+.blouson{
+    background-image: url(../asset/blouson.jpg);
+    background-size: cover;
+
+}
+
+
+.chemise{
+    background-image: url(../asset/chemise.jpg);
+    background-size: cover;
+
+}
+
+
+.doudoune{
+    background-image: url(../asset/pull.jpg);
+    background-size: cover;
+
+}
+
+
+.doudounesm{
+    background-image: url(../asset/doudounesm.jpg);
+    background-size: cover;
+
+}
+
+
+.costume{
+    background-image: url(../asset/costume.jpg);
+    background-size: cover;
+
+}
+
+
+.vestecuir{
+    background-image: url(../asset/vestecuir.jpg);
+    background-size: cover;
+
+}
+
+
+.tshirt{
+    background-image: url(../asset/tshirt.jpg);
+    background-size: cover;
+
+}
+
+.casquette{
+    background-image: url(../asset/casquette.png);
+    background-size: cover;
+
+}
+
+.ceinture{
+    background-image: url(../asset/ceinture.png);
+    background-size: cover;
+
+}
+
+.montre{
+    background-image: url(../asset/montre.png);
+    background-size: cover;
+
+}
+
+.noeudpap{
+    background-image: url(../asset/noeudpap.jpg);
+    background-size: cover;
+
+}
+.img_insta{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bottom{
+    text-align: center;
+    margin-top: 2rem ;
+    margin-bottom: 2rem;
+    display: inline-block;
+    padding-left: 2rem;
+}
+
+.dodou{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+.grid_doudounesw>.daw{
+    height: 70vh;
+    background-image: url(../asset/visuel_grid_doudoune_left-2.jpg);
+    background-size: cover;
+    width: 40%;
+    float:left;
+    
+}
+
+.grid_doudounes>.da{
+    height: 70vh;
+    background-image: url(../asset/visuel_grid_doudoune_left.jpg);
+    background-size: cover;
+    width: 40%;
+    float:left;
+    
+}
+.grid_doudounes,.grid_doudounesw{
+    width: 90%;
+    display: block;
+    margin: 2rem auto ;
+}
+.grid_doudounesw>.dbw{
+    cursor: pointer;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 60%;
+    float:left;
+}
+.grid_doudounes>.db{
+    cursor: pointer;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 60%;
+    float:left;
+}
+
+
+
+.db>div{
+    width: 80%;
+    margin: 1rem auto;
+    height: 90%;
+    background-color: aliceblue;
+    transition: all .3s;
+
+
+
+
+}
+
+.dbw>div{
+    width: 80%;
+    margin: 1rem auto;
+    height: 90%;
+    background-color: aliceblue;
+    transition: all .3s;
+
+
+
+
+}
+.db>div:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+
+}
+.db>.pa{
+    background-image: url(../asset/doudounes_photos_leo/pa1.jpg);
+    background-size: cover;
+}
+
+.db>.pb{
+    background-image: url(../asset/doudounes_photos_leo/pa2.jpg);
+    background-size: cover;
+}
+
+.db>.pc{
+    background-image: url(../asset/doudounes_photos_leo/pa3.jpg);
+    background-size: cover;
+}
+
+.db>.pd{
+    background-image: url(../asset/doudounes_photos_leo/pa4.jpg);
+    background-size: cover;
+}
+
+.db>.pe{
+    background-image: url(../asset/doudounes_photos_leo/pa5.jpg);
+    background-size: cover;
+}
+
+.db>.pf{
+    background-image: url(../asset/doudounes_photos_leo/pa6.jpg);
+    background-size: cover;
+}
+
+.dbw>div:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+
+}
+.dbw>.paw{
+    background-image: url(../asset/DOUDOUNESF/7.jpg);
+    background-size: cover;
+}
+
+.dbw>.pbw{
+    background-image: url(../asset/DOUDOUNESF/8.jpg);
+    background-size: cover;
+}
+
+.dbw>.pcw{
+    background-image: url(../asset/DOUDOUNESF/9.jpg);
+    background-size: cover;
+}
+
+.dbw>.pdw{
+    background-image: url(../asset/DOUDOUNESF/10.jpg);
+    background-size: cover;
+}
+
+.dbw>.pew{
+    background-image: url(../asset/DOUDOUNESF/11.jpg);
+    background-size: cover;
+}
+
+.dbw>.pfw{
+    background-image: url(../asset/doudounes_photos_leo/pa6.jpg);
+    background-size: cover;
+}
