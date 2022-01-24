@@ -81,14 +81,14 @@ div_access.style.display="none"
 menn.addEventListener("click",()=>{
     if (window.matchMedia("(max-width: 600px)").matches) {
         bannieres.setAttribute("style","background-image: url(../asset/visuelmobilefirstbanniere-2/2.jpg);background-size:cover");
-        banniere_show_femme.style.display="none"
-        banniere_show_homme.style.display="block"
+       
           } else {
       
     bannieres.setAttribute("style","    background-image: url(../asset/BANNIERES/1.jpg) ;background-size:cover");
-    banniere_show_femme.style.display="none"
-    banniere_show_homme.style.display="block"
+  
       }
+      banniere_show_femme.style.display="none"
+      banniere_show_homme.style.display="block"
 
 })
 
@@ -98,8 +98,9 @@ womenn.addEventListener("click",()=>{
        
           }else{
     bannieres.setAttribute("style","background-image: url(../asset/BANNIERES/2.jpg);background-size:cover");
-    banniere_show_femme.style.display="block"
-    banniere_show_homme.style.display="none"
+ 
           }
+          banniere_show_femme.style.display="block";
+          banniere_show_homme.style.display="none";
           
 })
