@@ -18,7 +18,7 @@
     height: 45vh;
     position: relative;
     background-size: cover;
-    background-image: url(../asset/BANNIERES/1.jpg);
+    background-image: url(../asset/b1.jpg);
 }
 .banniere>ul>li{
     cursor: pointer;

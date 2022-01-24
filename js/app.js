@@ -84,7 +84,7 @@ menn.addEventListener("click",()=>{
        
           } else {
       
-    bannieres.setAttribute("style","    background-image: url(../asset/BANNIERES/1.jpg) ;background-size:cover");
+    bannieres.setAttribute("style","    background-image: url(../asset/b1.jpg) ;background-size:cover");
   
       }
       banniere_show_femme.style.display="none"
@@ -97,7 +97,7 @@ womenn.addEventListener("click",()=>{
         bannieres.setAttribute("style","background-image: url(../asset/visuelmobilefirstbanniere-2/1.jpg);background-size:cover");
        
           }else{
-    bannieres.setAttribute("style","background-image: url(../asset/BANNIERES/2.jpg);background-size:cover");
+    bannieres.setAttribute("style","background-image: url(../asset/b2.jpg);background-size:cover");
  
           }
           banniere_show_femme.style.display="block";
