@@ -209,12 +209,15 @@ ul>li{
 .ab{
     background-image: url(../asset/noeudpap.jpg);
     background-size: cover;
+    background-position: center center;
     position: relative;
 }
 .ac{
     background-image: url(../asset/montrebg-2.jpg);
     background-size: cover;
     position: relative;
+    background-position: center center;
+
 }
 .ab>p{
     position: absolute;
@@ -252,42 +255,57 @@ button{
 .jeanw{
     background-image: url(../asset/TOITREE/2.jpg);
     background-size: cover;
+    background-position: center center;
+
     position: relative;
 }
 .pantalonsw{
     background-image: url(../asset/TOITREE/3.jpg);
     background-size: cover;
+    background-position: center center;
+
     position: relative;
 }
 .blazerw{
     background-image: url(../asset/TOITREE/4.jpg);
     background-size: cover;
+    background-position: center center;
+
     position: relative;
 }
 .basketf{
     background-image: url(../asset/BASKETSF.jpg);
     background-size: cover;
+    background-position: center center;
     position: relative;
 }
 .bootsf{
     background-image: url(../asset/BOTTESF.jpg);
     background-size: cover;
+    background-position: center center;
+
     position: relative; 
 }
 
 .talonsf{
     background-image: url(../asset/TALONSF.jpg);
     background-size: cover;
+    background-position: center center;
+
     position: relative;   
 }
 .doudounew{
     background-image: url(../asset/TOITREE/5.jpg);
     background-size: cover;
+    background-position: center center;
+
     position: relative;
 }
 .doudounesmw{
     background-image: url(../asset/TOITREE/6.jpg);
     background-size: cover;
+    background-position: center center;
+
     position: relative;
 }
 
@@ -369,7 +387,7 @@ button:hover{
 .overflowx,.overflowy,.overflowz,.overflowx_femme,.overflowy_femme{
     overflow-x: scroll;
     width: 90%;
-    height: 45vh;
+    height: 35rem;
     margin: 0rem auto 2rem;
     display: grid;
     grid-gap: 1rem;
@@ -434,7 +452,7 @@ button:hover{
       margin: 5rem auto;
   }
 
-  .grid_diane_photos>img,.grid_diane_photos_femme>img{
+  .grid_diane_photos>a>img,.grid_diane_photos_femme>a>img{
       
     width: 100%;
     cursor: pointer;
@@ -444,17 +462,20 @@ button:hover{
   .basket{
     background-image: url(../asset/basket.png);
     background-size: cover;
+    background-position:center center;
 
 }
 .mocassin{
     background-image: url(../asset/mocassin.png);
     background-size: cover;
+    background-position:center center;
 
 }
 
   .pull{
       background-image: url(../asset/pull.jpg);
       background-size: cover;
+      background-position:center center;
 
   }
  
@@ -462,6 +483,7 @@ button:hover{
 .jean{
     background-image: url(../asset/jean.jpg);
     background-size: cover;
+    background-position:center center;
 
 }
 
@@ -469,6 +491,7 @@ button:hover{
 .blouson{
     background-image: url(../asset/blouson.jpg);
     background-size: cover;
+    background-position:center center;
 
 }
 
@@ -476,13 +499,15 @@ button:hover{
 .chemise{
     background-image: url(../asset/chemise.jpg);
     background-size: cover;
+    background-position:center center;
 
 }
 
 
 .doudoune{
-    background-image: url(../asset/pull.jpg);
+    background-image: url(../asset/doudoune.jpg);
     background-size: cover;
+    background-position:center center;
 
 }
 
@@ -490,6 +515,7 @@ button:hover{
 .doudounesm{
     background-image: url(../asset/doudounesm.jpg);
     background-size: cover;
+    background-position:center center;
 
 }
 
@@ -497,6 +523,7 @@ button:hover{
 .costume{
     background-image: url(../asset/costume.jpg);
     background-size: cover;
+    background-position:center center;
 
 }
 
@@ -504,6 +531,7 @@ button:hover{
 .vestecuir{
     background-image: url(../asset/vestecuir.jpg);
     background-size: cover;
+    background-position:center center;
 
 }
 
@@ -511,30 +539,35 @@ button:hover{
 .tshirt{
     background-image: url(../asset/tshirt.jpg);
     background-size: cover;
+    background-position:center center;
 
 }
 
 .casquette{
     background-image: url(../asset/casquette.png);
     background-size: cover;
+    background-position:center center;
 
 }
 
 .ceinture{
     background-image: url(../asset/ceinture.png);
     background-size: cover;
+    background-position:center center;
 
 }
 
 .montre{
     background-image: url(../asset/montre.png);
     background-size: cover;
+    background-position:center center;
 
 }
 
 .noeudpap{
     background-image: url(../asset/noeudpap.jpg);
     background-size: cover;
+    background-position:center left -1rem;
 
 }
 .img_insta{
@@ -561,6 +594,7 @@ button:hover{
     height: 70vh;
     background-image: url(../asset/visuel_grid_doudoune_left-2.jpg);
     background-size: cover;
+
     width: 40%;
     float:left;
     
@@ -651,8 +685,13 @@ button:hover{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.db>.divclass:hover .offwhite a:hover,.dbw>.divclass:hover .offwhite a:hover{
-    background-color: black;
+.db>.divclass:hover .offwhite a:hover{
+    background-color: rgb(76, 81, 89);
+    color: white;
+    transition: all .3s;
+}
+.dbw>.divclass:hover .offwhite a:hover{
+    background-color: rgb(207,209,185);
     color: white;
     transition: all .3s;
 }

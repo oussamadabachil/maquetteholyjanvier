@@ -124,3 +124,50 @@
 
       
 }
+
+@media screen and (max-width: 900px)  {
+
+    .grid_doudounesw>.daw{
+        height: 70vh;
+        background-image: url(../asset/visuel_grid_doudoune_left-2.jpg);
+        background-size: cover;
+        width: 50%;
+        float:left;
+        
+    }
+    
+    .grid_doudounes>.da{
+        height: 70vh;
+        background-image: url(../asset/visuel_grid_doudoune_left.jpg);
+        background-size: cover;
+        width: 50%;
+        float:left;
+        
+    }
+    
+
+.grid_doudounesw>.dbw{
+    cursor: pointer;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 50%;
+    float:left;
+}
+.grid_doudounes>.db{
+    cursor: pointer;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 50%;
+    float:left;
+}
+
+
+}
