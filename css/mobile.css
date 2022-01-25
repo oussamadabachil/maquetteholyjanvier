@@ -42,7 +42,7 @@
             grid-gap: 1rem;
             margin: 1rem auto;
         }
-        .grid_doudounes{
+        .grid_doudounes,.grid_doudounesw{
             width: 100%;
         }
         .grid_doudounes>.db,.grid_doudounesw>.dbw{
