@@ -145,19 +145,8 @@ h1{
     text-align: center
 ;
 }
-ul>li>a{
-    
-    text-decoration: none;
-    color: black;
-}
-ul{
-    
-    text-align: center;
-    margin: 1rem auto;
-    display: grid;
-    width: 15%;
-    grid-template-columns: repeat(2,1fr);
-}
+
+
 ul>li{
     font-family: Roboto;
     font-size: 1.2rem;
