@@ -45,6 +45,21 @@
         .grid_doudounes,.grid_doudounesw{
             width: 100%;
         }
+        .db>.divclass>div>a,.dbw>.divclass>div>a{
+            text-align: center;
+            position: absolute;
+            color: black;
+            background-color: white;
+            top: 50%;
+            font-size: small;
+            padding: .25rem;
+            left: 50%;
+            text-decoration: none;
+            width: 50%;
+            transition: all .3s;
+        
+            transform: translate(-50%,-50%);
+        }
         .grid_doudounes>.db,.grid_doudounesw>.dbw{
             cursor: pointer;
             height: 100vh;
