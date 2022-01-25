@@ -42,6 +42,9 @@
             grid-gap: 1rem;
             margin: 1rem auto;
         }
+        .grid_doudounes{
+            width: 100%;
+        }
         .grid_doudounes>.db,.grid_doudounesw>.dbw{
             cursor: pointer;
             height: 100vh;
@@ -49,10 +52,25 @@
             background-repeat: repeat-y;
             background-attachment: fixed;
             display: grid;
+            grid-gap: .1rem;
             grid-template-columns: repeat(2,1fr);
             width: 100%;
         }
-
+        .db>.divclass:hover .offwhite p,.dbw>.divclass:hover .offwhite p{
+            opacity: 1;
+            font-size: .6rem;
+            transition: all .3s;
+            position: absolute;
+            width: 90%;
+            color: white;
+            font-family: sans-serif;
+            top: 10%;
+            text-align: center;
+        
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        
 .grid_categ_ul_femme{
     display: grid;
     width: 80%;
