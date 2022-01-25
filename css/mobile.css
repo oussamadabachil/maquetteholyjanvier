@@ -63,6 +63,7 @@
         .grid_doudounes>.db,.grid_doudounesw>.dbw{
             cursor: pointer;
             height: 100vh;
+
             background-size: cover;
             background-repeat: repeat-y;
             background-attachment: fixed;
@@ -124,7 +125,7 @@
 
       
 }
-
+/*
 @media screen and (max-width: 900px)  {
 
     .grid_doudounesw>.daw{
@@ -171,3 +172,4 @@
 
 
 }
+*/
