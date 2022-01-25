@@ -80,11 +80,11 @@ div_access.style.display="none"
    
 menn.addEventListener("click",()=>{
     if (window.matchMedia("(max-width: 600px)").matches) {
-        bannieres.setAttribute("style","background-image: url(../asset/movb2.jpg);background-size:cover");
+        bannieres.setAttribute("style","background-image: url(.../asset/movb2.jpg);background-size:cover");
        
           } else {
       
-    bannieres.setAttribute("style","background-image: url(../asset/b1.jpg) ;background-size:cover");
+    bannieres.setAttribute("style","background-image: url(.../asset/b1.jpg) ;background-size:cover");
   
       }
       banniere_show_femme.style.display="none"
@@ -94,10 +94,10 @@ menn.addEventListener("click",()=>{
 
 womenn.addEventListener("click",()=>{
     if (window.matchMedia("(max-width: 600px)").matches) {
-        bannieres.setAttribute("style","background-image:url(../asset/movb1.jpg);background-size:cover");
+        bannieres.setAttribute("style","background-image:url(.../asset/movb1.jpg);background-size:cover");
        
           }else{
-    bannieres.setAttribute("style","background-image:url(../asset/b2.jpg);background-size:cover");
+    bannieres.setAttribute("style","background-image:url(.../asset/b2.jpg);background-size:cover");
  
           }
           banniere_show_femme.style.display="block";
