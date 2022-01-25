@@ -658,7 +658,7 @@ button:hover{
 }
 
 .db>.pf{
-    background-image: url(../asset/doudounes_photos_leo/pa6.jpg);
+    background-image: url(../asset/lastpicdoudoune.jpg);
     background-size: cover;
 }
 
@@ -698,3 +698,78 @@ button:hover{
 
     background-position: center center;
 }
+
+
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  .flip-card-back>p{
+      font-family: Bellota Text;
+    overflow-y: auto;
+  font-size: 2rem;  
+  width: 90%;
+  text-align: center;
+  line-height: 3rem;
+  display: block;
+  margin: 2rem auto;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-image: url(../asset/key_cart.png);
+    background-size: contain;
+    background-color: red;
+
+  }
+  
+  /* Style the back side */
+
+  .first-behind{
+    background-image: url(../asset/key_cart.png);
+    background-size: cover;
+
+  }
+  .second-behind{
+    background-image: url(../asset/compteur.jpg);
+    background-size: cover;
+
+  }
+  .third-behind{
+    background-image: url(../asset/service_montage_voiture.png);
+    background-size: cover;
+
+  }
+  .flip-card-back{
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    background-size: cover;
+  
+    transform: rotateY(180deg);
+  }
+  
